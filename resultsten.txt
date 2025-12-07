@@ -1,0 +1,171 @@
+
+============================================================
+2048 Agent Performance Testing
+============================================================
+
+============================================================
+TESTING EXPECTIMAX AGENT
+============================================================
+
+============================================================
+Testing ExpectimaxAgent
+Running 30 games...
+============================================================
+
+Game 1/30... Score: 15288, Max tile: 1024, Moves: 920
+Game 2/30... Score: 20296, Max tile: 2048, Moves: 962
+Game 3/30... Score: 10888, Max tile: 512, Moves: 702
+Game 4/30... Score: 14932, Max tile: 1024, Moves: 879
+Game 5/30... Score: 12608, Max tile: 1024, Moves: 760
+Game 6/30... Score: 13028, Max tile: 1024, Moves: 774
+Game 7/30... Score: 11268, Max tile: 512, Moves: 743
+Game 8/30... Score: 6484, Max tile: 256, Moves: 476
+Game 9/30... Score: 2904, Max tile: 128, Moves: 258
+Game 10/30... Score: 10360, Max tile: 512, Moves: 662
+Game 11/30... Score: 8032, Max tile: 512, Moves: 551
+Game 12/30... Score: 20404, Max tile: 2048, Moves: 960
+Game 13/30... Score: 20276, Max tile: 2048, Moves: 961
+Game 14/30... Score: 6364, Max tile: 256, Moves: 470
+Game 15/30... Score: 16240, Max tile: 1024, Moves: 962
+Game 16/30... Score: 7144, Max tile: 512, Moves: 497
+Game 17/30... Score: 5488, Max tile: 512, Moves: 380
+Game 18/30... Score: 7184, Max tile: 512, Moves: 501
+Game 19/30... Score: 14548, Max tile: 1024, Moves: 840
+Game 20/30... Score: 15996, Max tile: 1024, Moves: 938
+Game 21/30... Score: 6016, Max tile: 256, Moves: 448
+Game 22/30... Score: 7184, Max tile: 512, Moves: 495
+Game 23/30... Score: 15448, Max tile: 1024, Moves: 896
+Game 24/30... Score: 13820, Max tile: 1024, Moves: 801
+Game 25/30... Score: 12628, Max tile: 1024, Moves: 767
+Game 26/30... Score: 20248, Max tile: 2048, Moves: 964
+Game 27/30... Score: 7320, Max tile: 512, Moves: 500
+Game 28/30... Score: 2832, Max tile: 128, Moves: 257
+Game 29/30... Score: 15576, Max tile: 1024, Moves: 917
+Game 30/30... Score: 7168, Max tile: 512, Moves: 487
+
+============================================================
+SUMMARY - ExpectimaxAgent
+============================================================
+Total games: 30
+Total time: 71.34 seconds
+Avg time per game: 2.38 seconds
+
+Score Statistics:
+  Average: 11599.07
+  Min: 2832
+  Max: 20404
+
+Max Tile Statistics:
+  Average: 853.33
+  Min: 128
+  Max: 2048
+
+Move Statistics:
+  Average: 690.93
+  Min: 257
+  Max: 964
+
+Tile Achievements:
+   128: 30/30 (100.0%)
+   256: 28/30 ( 93.3%)
+   512: 25/30 ( 83.3%)
+  1024: 15/30 ( 50.0%)
+  2048:  4/30 ( 13.3%)
+  4096:  0/30 (  0.0%)
+
+Win Rate: 4/30 (13.3%)
+============================================================
+
+
+
+============================================================
+TESTING RANDOM AGENT (for comparison)
+============================================================
+
+============================================================
+Testing RandomAgent
+Running 30 games...
+============================================================
+
+Game 1/30... Score: 1336, Max tile: 128, Moves: 137
+Game 2/30... Score: 2580, Max tile: 256, Moves: 215
+Game 3/30... Score: 936, Max tile: 64, Moves: 115
+Game 4/30... Score: 244, Max tile: 32, Moves: 46
+Game 5/30... Score: 1172, Max tile: 128, Moves: 121
+Game 6/30... Score: 1096, Max tile: 128, Moves: 118
+Game 7/30... Score: 1640, Max tile: 128, Moves: 168
+Game 8/30... Score: 748, Max tile: 64, Moves: 100
+Game 9/30... Score: 628, Max tile: 64, Moves: 87
+Game 10/30... Score: 1120, Max tile: 128, Moves: 118
+Game 11/30... Score: 672, Max tile: 64, Moves: 91
+Game 12/30... Score: 1680, Max tile: 128, Moves: 159
+Game 13/30... Score: 1256, Max tile: 128, Moves: 131
+Game 14/30... Score: 692, Max tile: 64, Moves: 90
+Game 15/30... Score: 1260, Max tile: 128, Moves: 130
+Game 16/30... Score: 1300, Max tile: 128, Moves: 132
+Game 17/30... Score: 796, Max tile: 64, Moves: 101
+Game 18/30... Score: 1368, Max tile: 128, Moves: 144
+Game 19/30... Score: 588, Max tile: 64, Moves: 80
+Game 20/30... Score: 456, Max tile: 64, Moves: 67
+Game 21/30... Score: 1324, Max tile: 128, Moves: 137
+Game 22/30... Score: 712, Max tile: 64, Moves: 87
+Game 23/30... Score: 1560, Max tile: 128, Moves: 154
+Game 24/30... Score: 908, Max tile: 64, Moves: 109
+Game 25/30... Score: 1352, Max tile: 128, Moves: 141
+Game 26/30... Score: 708, Max tile: 64, Moves: 94
+Game 27/30... Score: 848, Max tile: 64, Moves: 104
+Game 28/30... Score: 928, Max tile: 128, Moves: 98
+Game 29/30... Score: 368, Max tile: 32, Moves: 60
+Game 30/30... Score: 764, Max tile: 64, Moves: 96
+
+============================================================
+SUMMARY - RandomAgent
+============================================================
+Total games: 30
+Total time: 0.09 seconds
+Avg time per game: 0.00 seconds
+
+Score Statistics:
+  Average: 1034.67
+  Min: 244
+  Max: 2580
+
+Max Tile Statistics:
+  Average: 98.13
+  Min: 32
+  Max: 256
+
+Move Statistics:
+  Average: 114.33
+  Min: 46
+  Max: 215
+
+Tile Achievements:
+   128: 15/30 ( 50.0%)
+   256:  1/30 (  3.3%)
+   512:  0/30 (  0.0%)
+  1024:  0/30 (  0.0%)
+  2048:  0/30 (  0.0%)
+  4096:  0/30 (  0.0%)
+
+Win Rate: 0/30 (0.0%)
+============================================================
+
+
+============================================================
+FINAL COMPARISON
+============================================================
+
+Expectimax Agent:
+  Average score: 11599.07
+  Average max tile: 853.33
+
+Random Agent:
+  Average score: 1034.67
+  Average max tile: 98.13
+
+Improvement:
+  Score improvement: 1021.0%
+  Tile improvement: 769.6%
+============================================================
+
